@@ -13,7 +13,7 @@ FayasNoushad = Client(
     api_hash = os.environ["API_HASH"]
 )
 
-API = "https://api.covid19api.com/total/?country="
+API = "https://api.sumanjay.cf/covid/?country="
 
 START_TEXT = """
 Salam {},Mən istənilən ölkənin koronavirus statistikasını verə biləcək sadə telegram botuyam.
