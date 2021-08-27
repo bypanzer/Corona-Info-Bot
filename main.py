@@ -28,8 +28,7 @@ Bu addımları izlə..
 BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton(Sahibim👽, url='https://telegram.me/sammekkim')
-        ]],
-        [[
+        ],[
         InlineKeyboardButton('⚙ Yeniliklər kanalı ⚙', url='https://telegram.me/EpicProjects')
         ]]
     )
@@ -69,19 +68,19 @@ def covid_info(country_name):
         longitude = info['longitude']
         recovered = info['recovered']
         covid_info = f"""
---**Covid 19 Information**--
+--**Covid 19 İnformasiyası**--
 
-Country : `{country}`
-Actived : `{active}`
-Confirmed : `{confirmed}`
-Deaths : `{deaths}`
+Ölkə : `{country}`
+Aktiv xəstə sayı : `{active}`
+Təsdiq edilmiş : `{confirmed}`
+Ölüm sayı : `{deaths}`
 ID : `{info_id}`
-Last Update : `{last_update}`
-Latitude : `{latitude}`
-Longitude : `{longitude}`
-Recovered : `{recovered}`
+Ən son yenilənmə : `{last_update}`
+En : `{latitude}`
+Uzunluq : `{longitude}`
+Sağalanlar : `{recovered}`
 
-Made by @FayasNoushad
+@EpicProjects tərəfindən hazırlandı.
 """
         return covid_info
     except Exception as error:
