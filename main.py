@@ -19,10 +19,18 @@ START_TEXT = """
 Salam {},Mən istənilən ölkənin koronavirus statistikasını verə biləcək sadə telegram botuyam.
 
 """
+HELP_TEXT = """
+Bu addımları izlə..
+☛ İndi mənə istədiyin ölkə adını göndər...
+☛ Mən məlumat toplayıb sənə göndərəcəm🙆.
+"""
 
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton(Sahibim👽, url='https://telegram.me/sammekkim')
+        ]],
+        [[
+        InlineKeyboardButton('⚙ Yeniliklər kanalı ⚙', url='https://telegram.me/EpicProjects')
         ]]
     )
 
