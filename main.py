@@ -27,7 +27,7 @@ Bu addımları izlə..
 
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(Sahibim👽, url='https://telegram.me/sammekkim')
+        InlineKeyboardButton(Sahibim👩‍💻 , url='https://telegram.me/sammekkim')
         ],[
         InlineKeyboardButton('⚙ Yeniliklər kanalı ⚙', url='https://telegram.me/EpicProjects')
         ]]
